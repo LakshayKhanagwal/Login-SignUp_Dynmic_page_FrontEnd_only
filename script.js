@@ -160,7 +160,7 @@ function signup_pannel() {
 
 function login_page() {
 
-    if (document.getElementById("lg_sp_pannel")!=null) {
+    if (document.getElementById("lg_sp_pannel") != null) {
         return
     }
 
@@ -184,7 +184,7 @@ function login_page() {
     login_a_btn.setAttribute("id", "login")
     login_a_btn.setAttribute("class", "buttons")
     login_a_btn.setAttribute("onclick", "login_pannel()")
-    login_a_btn.innerHTML="LogIn"
+    login_a_btn.innerHTML = "LogIn"
     login_a.append(login_a_btn)
 
     //signup button
@@ -196,13 +196,13 @@ function login_page() {
     signup_a_btn.setAttribute("id", "signup")
     signup_a_btn.setAttribute("class", "buttons")
     signup_a_btn.setAttribute("onclick", "signup_pannel()")
-    signup_a_btn.innerHTML="SignUp"
+    signup_a_btn.innerHTML = "SignUp"
     signup_a.append(signup_a_btn)
 
-//mainpannel
+    //mainpannel
 
     var mainpannel = document.createElement("div")
-    mainpannel.setAttribute("id","mainpannel")
+    mainpannel.setAttribute("id", "mainpannel")
     lg_pannel.append(mainpannel)
 
     document.getElementById("bdy").append(lg_sp_pannel)
