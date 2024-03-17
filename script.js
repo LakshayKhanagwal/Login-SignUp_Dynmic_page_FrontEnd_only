@@ -70,6 +70,7 @@ function login_pannel() {
     // twiking some property
 
     document.getElementById("lg_sp_pannel").style.height = "60vh"
+    document.getElementById("lg_sp_pannel").style.marginTop = "2vh"
     document.getElementById("login").style.filter = "drop-shadow(0px 0px 3px rgb(255, 255, 255))"
     document.getElementById("login").style.color = "white"
     document.getElementById("pass_eye").style.top = "-11.4vh"
@@ -147,11 +148,13 @@ function signup_pannel() {
     // twiking some property
 
     document.getElementById("lg_sp_pannel").style.height = "85vh"
+    document.getElementById("lg_sp_pannel").style.marginTop = "-4vh"
     document.getElementById("signup").style.filter = "drop-shadow(0px 0px 3px rgb(255, 255, 255))"
     document.getElementById("signup").style.color = "white"
     document.getElementById("pass_eye").style.top = "-7.7vh"
     document.getElementById("login").style.filter = "drop-shadow(0px 0px 0px)"
     document.getElementById("login").style.color = "rgb(161, 161, 161)"
+
 
 }
 

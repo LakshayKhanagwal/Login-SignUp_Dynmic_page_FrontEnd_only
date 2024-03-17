@@ -123,28 +123,23 @@ input {
     background-color: rgba(139, 139, 139, 0.603);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* bootstrab modify */
 
 .navbar {
     justify-content: flex-start;
     padding-left: 3%;
     gap: 20px;
+}
+
+#footer {
+    background-color: rgba(19, 19, 19, 0.678);
+    height: 6vh;
+    position: relative;
+    top: 87.7vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(85, 85, 85, 0.459);
+    z-index: 1;
 }
