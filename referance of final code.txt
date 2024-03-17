@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bdy">
+    <div id="bg_image"></div>
+    <div id="headder" class="bg-dark-subtle">
+        <ul class="nav navbar container-fluid">
+            <li><a class="head_item" href="">Home</a></li>
+            <li><a class="head_item" href="">Contact</a></li>
+            <li><a class="head_item" onclick="login_page()">Login/SignUp</a></li>
+        </ul>
+    </div>
+    <!-- <div id="lg_sp_pannel">
+        <div id="lg_pannel">
+            <div id="pannel_head">
+                <div>
+                    <a id="login" class="buttons" onclick="login_pannel()"> LogIn</a>
+                </div>
+                <div>
+                    <a id="signup" class="buttons" onclick="signup_pannel()">SignUp</a>
+                </div>
+            </div>
+            <div id="mainpannel">
+                 <div id="mainpannel_2" class="col-md-6">
+                    <label>UserName</label><br>
+                    <input type="text" id="user_name" placeholder="Enter UserName"><br>
+                    <label>Password</label><br>
+                    <input type="password" id="password" placeholder="Pasword">
+                    <img src="images/hide.png" onclick="eye()" id="pass_eye"><br>
+                    <button id="login_btn" onclick="login()">LogIn</button>
+                </div>
+
+                 <div id="mainpannel_2" class="col-md-6">
+                    <label>E-Mail</label><br>
+                    <input type="text" id="mail" placeholder="Enter Your Mail"><br>
+                    <label>UserName</label><br>
+                    <input type="text" id="user_name" placeholder="Enter UserName"><br>
+                    <label>Password</label><br>
+                    <input type="password" id="password" placeholder="Password">
+                    <img src="images/hide.png" onclick="eye()" id="pass_eye">
+                    <label id="c_pass_label">Confirm Password</label><br>
+                    <input type="password" id="con_password" placeholder="Re-Enter Password">
+                    <button id="Signup_btn" onclick="Signup()">SignUp</button>
+                </div> 
+            </div>
+        </div>
+    </div> -->
+</body>
+<script src="script.js"></script>
+
+</html>
