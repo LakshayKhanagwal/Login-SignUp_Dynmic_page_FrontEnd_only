@@ -40,7 +40,9 @@ This project provides a basic Dynmic LogIn/SignUp template with a clean and mode
 ## Output
 
 Output should be look like this
-![Output]
+![Output](https://github.com/LakshayKhanagwal/Login-SignUp_Dynmic_page_FrontEnd_only/blob/6ebac35b170b2a71e12b163270afe00a324aeb65/images/output.jpg)
+![Output](https://github.com/LakshayKhanagwal/Login-SignUp_Dynmic_page_FrontEnd_only/blob/6ebac35b170b2a71e12b163270afe00a324aeb65/images/output_1.jpg)
+![Output](https://github.com/LakshayKhanagwal/Login-SignUp_Dynmic_page_FrontEnd_only/blob/6ebac35b170b2a71e12b163270afe00a324aeb65/images/output_2.jpg)
 
 ## Features
 
